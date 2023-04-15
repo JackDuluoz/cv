@@ -1,3 +1,9 @@
+%-------------------------
+% Resume in Latex
+% Author: Michael Green
+% Based on: https://github.com/sb2nov/resume and Jake Gutierre's template
+%------------------------
+
 \documentclass[letterpaper,11pt]{article}
 
 \usepackage{latexsym}
@@ -18,7 +24,7 @@
 % \usepackage[sfdefault]{FiraSans}
 % \usepackage[sfdefault]{roboto}
 % \usepackage[sfdefault]{noto-sans}
-\usepackage[default]{OldStandard}
+\usepackage[default]{sourcesanspro}
 
 % serif
 % \usepackage{CormorantGaramond}
@@ -105,9 +111,12 @@
 
 \begin{center}
     \textbf{\Huge \scshape Michael Green} \\ \vspace{1pt}
-    \small 1-250-540-9809 $|$ \href{mailto:greenmr1995@gmail.com}{\underline{greenmr1995@gmail.com}} $|$ 
+    \small 1-250-540-9809 $|$
+    \href{mailto:greenmr1995@gmail.com}{\underline{greenmr1995@gmail.com}} $|$ 
     \href{https://www.linkedin.com/in/mrgreen95/}{\underline{linkedin.com/in/mrgreen95}} $|$
-    \href{https://github.com/JackDuluoz}{\underline{github.com/JackDuluoz}}
+    \href{https://github.com/JackDuluoz}{\underline{github.com/JackDuluoz}} $|$
+    \small Vernon, BC, Canada
+    
 \end{center}
 
 
@@ -134,11 +143,12 @@
       {1st Assistant Store Manager}{Feb 2019 -- Nov 2020}
       {Canada Safeway}{Vernon, BC}
       \resumeItemListStart
-        \resumeItem{Profit centre generating annual revenue of CAD \$36,000,000 with over 150 unionised staff.}
+        \resumeItem{Oversaw daily operations at a retail profit centre generating annual {\textbf{revenues of \$36,000,000}}.}
+        \resumeItem{Responsible for {\textbf{150 unionised staff}} across {\textbf{10 departments}} operating 24 hours a day.}
         \resumeItem{Reduced labour costs by 5\% of sales. Increased YOY sales by 10\%. Achieved max bonus.}
-        \resumeItem{Managed front line business during Covid when procedures were changing daily and anxieties were high.}
-        \resumeItem{Duties: profit and loss management; planning, budgeting, and forecasting; customer escalation management; labour relations; community engagement; employee evaluation; hiring; payroll; food safety; health and safety.}
-        \resumeItem{Cost-cutting and organisational restructuring eliminated back office support roles, pushing more responsibilities to store level. We eventually took on all administrative HR tasks and employee learning and development programs.}
+        \resumeItem{Managed a front line business during Covid when procedures were changing daily and anxieties were high.}
+        \resumeItem{Cost-cutting and restructuring eliminated back office support roles, pushing responsibilities to store level. We absorbed administrative HR functions, employee L\&D programs, and continued operations without specialist support.}
+        \resumeItem{Duties: profit and loss management; planning, budgeting, and forecasting; customer escalation management; labour relations; community engagement; employee evaluation; hiring; payroll; food safety; health and safety (compliance).}
       \resumeItemListEnd
       
 % -----------Multiple Positions Heading-----------
@@ -155,9 +165,9 @@
       {2nd Assistant Store Manager}{Sep 2015 -- Feb 2019}
       {Canada Safeway}{Kelowna, BC}
       \resumeItemListStart
-        \resumeItem{ASM with a focus on the grocery department, which accounted for 50\% of store sales and 66\% of store real estate.}
-        \resumeItem{The Downtown Kelowna location ranked first for sales per square foot in interior BC and top three for tonnage despite having the smallest backroom and sales floor. This required expert organisation, time management, and productivity.}
-        \resumeItem{Key responsibilities: inventory management; sales and merchandising; shrinkage; loss prevention; scheduling.}
+        \resumeItem{ASM accountable for the grocery department, which comprised 50\% of store sales and 66\% of store real estate.}
+        \resumeItem{This location {\textbf{ranked first}} for sales per square foot in interior BC and top three for tonnage despite having the smallest backroom and sales floor. We were {\textbf{process driven}} experts in organisation, time management, and productivity.}
+        \resumeItem{Duties: team leadership; scheduling; inventory management; sales and merchandising; shrinkage; loss prevention.}
     \resumeItemListEnd
 
     \resumeSubheading
@@ -165,7 +175,7 @@
       {Canada Safeway}{Banff, AB}
       \resumeItemListStart
         \resumeItem{Completed Mentoring for Career Development (MCD) internal training program in core functions of the business.}
-        \resumeItem{Appointed store Change Agent following acquisition by Sobeys: Having mastered legacy Safeway systems, I received advanced training in the new Sobeys systems in order to lead the retraining of Safeway staff.}
+        \resumeItem{Appointed store {\textbf{Change Agent}} following acquisition by Sobeys: Having mastered legacy Safeway systems, I received advanced training in the new Sobeys systems in order to lead the retraining of Safeway staff.}
       \resumeItemListEnd
 
   \resumeSubHeadingListEnd
@@ -175,25 +185,32 @@
 \section{Projects}
     \resumeSubHeadingListStart
       \resumeProjectHeading
-          {\href{https://github.com/JackDuluoz/RentProof}{\textbf{\underline{RentProof}}} $|$ \emph{React, SCSS, Google Maps API, Node/Express, PostgreSQL}}{Feb 2023}
+          {\textbf{RentProof} $|$ 
+          \href{https://github.com/JackDuluoz/RentProof}
+          {\underline{github/RentProof}} $|$
+          \emph{React, SCSS, Google Maps API, Node/Express, PostgreSQL}}{Feb 2023}
           \resumeItemListStart
             \resumeItem{Renters post price updates for their property with supporting documentation, to be approved by site admin.}
             \resumeItem{Over time this contributes to a detailed price history of individual properties and market trends.}
             \resumeItem{Intuitive and dynamic map markers load property price data when clicked.}
           \resumeItemListEnd
       \resumeProjectHeading
-          {\href{https://github.com/JackDuluoz/jungle-rails}
-          {\textbf{\underline{The Jungle}}} $|$ \emph{Ruby on Rails, PostgreSQL, RSpec, Cypress}}{Jan 2023}
-          \resumeItemListStart
-            \resumeItem{An e-commerce application built with Rails 6.1. Payments processed using Stripe.}
-            \resumeItem{Integration tested with RSpec and end-to-end tested with Cypress.}
-          \resumeItemListEnd
-      \resumeProjectHeading
-          {\href{https://github.com/JackDuluoz/scheduler}
-          {\textbf{\underline{Scheduler}}} $|$ \emph{React, SCSS, Node/Express, PostgreSQL, Storybook, Jest, Cypress}}{Jan 2023}
+          {\textbf{Scheduler} $|$ 
+          \href{https://github.com/JackDuluoz/scheduler}
+          {\underline{github/Scheduler}} $|$
+          \emph{React, SCSS, Node/Express, PostgreSQL, Storybook, Jest, Cypress}}{Jan 2023}
           \resumeItemListStart
             \resumeItem{A full-stack, single-page appointment scheduling tool connecting students with mentors.}
             \resumeItem{Components built and tested with Storybook.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Jungle} $|$ 
+          \href{https://github.com/JackDuluoz/jungle-rails}
+          {\underline{github/Jungle}} $|$
+          \emph{Ruby on Rails, PostgreSQL, RSpec, Cypress}}{Jan 2023}
+          \resumeItemListStart
+            \resumeItem{An e-commerce application built with Rails 6.1. Payments processed using Stripe.}
+            \resumeItem{Integration tested with RSpec and end-to-end tested with Cypress.}
           \resumeItemListEnd
     \resumeSubHeadingListEnd
 
@@ -204,8 +221,8 @@
 \section{Technical Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Working Knowledge}{: JavaScript, TypeScript, HTML, CSS, SCSS, React, Material-UI, Angular, Angular Material, Node.js, Express, SQL (Postgres), MongoDB, Google Maps API, Git (GitHub), Linux, VS Code, LaTeX} \\
-     \textbf{Exposure}{: Ruby, Rails, EJS, jQuery, Ajax, Figma, Tailwind, Storybook, Cypress, Jest, Mocha, Chai, RSpec} \\
+     \textbf{Working Knowledge}{: JavaScript, TypeScript, HTML, CSS, SCSS, React, Material-UI, Angular, Angular Material, Node.js, Express, SQL (Postgres), MongoDB, Google Maps API, Git (GitHub), Linux, VS Code} \\ \vspace{1.5pt}
+     \textbf{Exposed To}{: Ruby, Rails, EJS, jQuery, Ajax, Figma, Tailwind, Storybook, Cypress, Jest, Mocha, Chai, RSpec, LaTeX} \\
     }}
  \end{itemize}
 
